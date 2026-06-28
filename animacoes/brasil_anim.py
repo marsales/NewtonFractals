@@ -174,14 +174,14 @@ def main():
     )
 
     animacao.save(
-        'animacao_newton.gif',
+        'brasil_anim.gif',
         writer=PillowWriter(fps=4),
         dpi=120
     )
 
     plt.close(fig)
 
-    print('Animação salva como animacao_newton.gif')
+    print('Animação salva como brasil_anim.gif')
 
 
 if __name__ == '__main__':
