@@ -165,7 +165,7 @@ def main():
 
     plt.close(fig)
 
-    print('Animação salva como animacao_newton.gif')
+    print('Animação salva como jap_anim.gif')
 
 
 if __name__ == '__main__':
