@@ -3,8 +3,7 @@ import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap, BoundaryNorm
 
 def f(z):
-    return (z**3+1)*(z-1) / (z-1)
-
+    return (z**3+1)
 def df(z):
     return (3*z**2)
 
